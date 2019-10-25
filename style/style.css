@@ -1,0 +1,23 @@
+th {
+	border: 1px solid black;
+}
+
+td {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+li {
+	list-style-type: none; /* Убираем маркеры */
+}
+   
+ul {
+	margin-left: 0; /* Отступ слева в браузере IE и Opera */
+	padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.active {
+	text-decoration: line-through;
+	color: #808080;
+}
